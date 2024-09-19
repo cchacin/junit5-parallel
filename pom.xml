@@ -15,11 +15,7 @@
     <properties>
         <maven.compiler.release>23</maven.compiler.release>
         <junit.version>5.11.0</junit.version>
-        <awaitility.version>4.2.2</awaitility.version>
         <assertj.version>3.26.3</assertj.version>
-        <jqwik.version>1.9.0</jqwik.version>
-        <record.builder.version>41</record.builder.version>
-        <mapstruct.version>1.5.5.Final</mapstruct.version>
         <tagNameFormat>v@{project.version}</tagNameFormat>
         <preparationGoals>clean compile test-compile</preparationGoals>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,18 +32,6 @@
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>${assertj.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.awaitility</groupId>
-            <artifactId>awaitility</artifactId>
-            <version>${awaitility.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.jqwik</groupId>
-            <artifactId>jqwik</artifactId>
-            <version>${jqwik.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
